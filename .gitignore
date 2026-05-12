@@ -1,0 +1,16 @@
+﻿.env
+__pycache__/
+*.pyc
+
+# JSONs locais temporários — não subir ao GitHub
+# Os JSONs em data/json/ SÃO versionados (fonte do GitHub Pages)
+data/*.json
+data/*.xlsx
+
+# Pasta empenho — artefatos gerados localmente
+empenho/dados*.json
+empenho/exportar.xlsx
+empenho/index_local.html
+empenho/.claude/
+
+# Pasta tools — PDFs e artefatos locais
